@@ -1,7 +1,7 @@
 ---
 title : Biases in embedding models
 feed: show
-date : 6-March-2025
+date : 6-03-2025
 ---
 
 # Executive Summary
