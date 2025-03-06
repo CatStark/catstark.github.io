@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/Biases in Embedding Models.md",
+                "file": "_notes/Biases in Embedding Models 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Biases in Embedding Models"
+              "title": "Biases in Embedding Models 1"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/Biases in Embedding Models.md",
+                "file": "_notes/Biases in Embedding Models 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Biases in Embedding Models"
+              "title": "Backlinks for Biases in Embedding Models 1"
             }
           },
           {
@@ -170,8 +170,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,8 +183,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d017e3599b858f81",
+  "active": "4408ae297cd33271",
   "lastOpenFiles": [
+    "Research/Biases in Embedding Models.md",
+    "_notes/Biases in Embedding Models 1.md",
     "utilities/Autocomplete.ts",
     "utilities",
     "pages/posts.md",
@@ -201,7 +202,6 @@
     "assets/css/vendor/fonts/KaTeX_Typewriter-Regular.woff2",
     "assets/css/vendor/fonts/KaTeX_Typewriter-Regular.woff",
     "assets/css/vendor/fonts/KaTeX_Typewriter-Regular.ttf",
-    "assets/css/vendor/fonts/KaTeX_Size4-Regular.woff2",
     "assets/img/sun.svg",
     "assets/img/moon.svg",
     "assets/img/external-link.svg",
@@ -220,7 +220,6 @@
     "_notes/Public/Credits.md",
     "README.md",
     "Home.md",
-    "Research/Biases in Embedding Models.md",
     "Welcome.md"
   ]
 }
