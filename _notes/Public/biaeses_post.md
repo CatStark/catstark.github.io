@@ -1,3 +1,10 @@
+---
+title : Biaeses in embedding models
+feed: show
+date : 6-March-2025
+---
+
+
 # Executive Summary
 
 Embedding models are the foundational layer of modern AI systems, powering everything from search engines and content recommendations to language translation and document classification. They're used both as building blocks for Large Language Models and as standalone applications.
