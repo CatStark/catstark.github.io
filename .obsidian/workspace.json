@@ -170,6 +170,9 @@
   },
   "active": "8d0daa1eae08ac44",
   "lastOpenFiles": [
+    "_site/notes/test-note.html",
+    "_site/notes/:slug.md",
+    "_notes/test-note.md",
     "_site/notes/bias-post.html",
     "_site/notes/my-first-note2.html",
     "_site/notes/my-first-note.html",
@@ -182,8 +185,6 @@
     "_site/notes/hidden-note.html",
     "_site/notes/welcome-to-the-garden.html",
     "_site/notes/markdown-rendered.html",
-    "_site/notes/:slug.md",
-    "_site/notes",
     "_site/assets/img/sun.svg",
     "_site/assets/img/moon.svg",
     "_site/assets/img/external-link.svg",
@@ -214,7 +215,6 @@
     "_posts/2020-03-01-features.md",
     "_notes/Public/Welcome to the garden.md",
     "_notes/Public/Markdown Rendered.md",
-    "_notes/Public/Hidden Note.md",
-    "_notes/Public/Credits.md"
+    "_notes/Public/Hidden Note.md"
   ]
 }
