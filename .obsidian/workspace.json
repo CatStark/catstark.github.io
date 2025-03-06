@@ -170,14 +170,18 @@
   },
   "active": "8d0daa1eae08ac44",
   "lastOpenFiles": [
+    "_notes/Welcome to the garden.md",
+    "_notes/test-note.md",
+    "_notes/Markdown Rendered.md",
+    "_notes/Hidden Note.md",
+    "_notes/Credits.md",
+    "_notes/bias_post.md",
     "_notes/Public/test-note.md",
     "_site/notes/test-note.html",
     "_site/notes/:slug.md",
-    "_notes/test-note.md",
     "_site/notes/bias-post.html",
     "_site/notes/my-first-note2.html",
     "_site/notes/my-first-note.html",
-    "_notes/bias_post.md",
     "_posts/bias_post.md",
     "_site/credits.html",
     "_site/post/how-to.html",
@@ -211,10 +215,6 @@
     "pages/lists.md",
     "pages/index.md",
     "pages/404.md",
-    "_posts/2020-03-01-how-to.md",
-    "_posts/2020-03-01-features.md",
-    "_notes/Public/Welcome to the garden.md",
-    "_notes/Public/Markdown Rendered.md",
-    "_notes/Public/Hidden Note.md"
+    "_posts/2020-03-01-how-to.md"
   ]
 }
