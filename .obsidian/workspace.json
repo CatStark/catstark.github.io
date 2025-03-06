@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "_notes/bias_post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "bias_post"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "_notes/bias_post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for bias_post"
             }
           },
           {
@@ -170,6 +170,7 @@
   },
   "active": "8d0daa1eae08ac44",
   "lastOpenFiles": [
+    "Welcome.md",
     "_site/notes/bias_post.html",
     "_notes/bias_post.md",
     "_site/notes/Research/index.html",
@@ -184,7 +185,6 @@
     "_site/notes/DG",
     "_notes/Research/bias_post.md",
     "_notes/Research",
-    "_site/notes/test-note.html",
     "_site/notes/:slug.md",
     "_notes/DG/test_note.md",
     "_site/ notes.md",

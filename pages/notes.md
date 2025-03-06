@@ -2,6 +2,6 @@
 layout: Post
 permalink: /notes/index.html
 feedformat: card
-title: Notes
+title: Digital Garden for research ideas 
 ---
 
