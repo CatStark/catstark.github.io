@@ -170,6 +170,9 @@
   },
   "active": "8d0daa1eae08ac44",
   "lastOpenFiles": [
+    "_site/notes/index.html",
+    "_site/ notes.md",
+    " notes.md",
     "_site/vercel-build.sh",
     "vercel-build.sh",
     "_notes/Welcome to the garden.md",
@@ -189,7 +192,6 @@
     "_site/post/how-to.html",
     "_site/post/features.html",
     "_site/post",
-    "_site/notes/hidden-note.html",
     "_site/assets/img/sun.svg",
     "_site/assets/img/moon.svg",
     "_site/assets/img/external-link.svg",
@@ -213,8 +215,6 @@
     "Research/Biases in Embedding Models.md",
     "pages/posts.md",
     "pages/notes.md",
-    "pages/lists.md",
-    "pages/index.md",
-    "pages/404.md"
+    "pages/lists.md"
   ]
 }
