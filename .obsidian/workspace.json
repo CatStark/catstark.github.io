@@ -170,6 +170,10 @@
   },
   "active": "8d0daa1eae08ac44",
   "lastOpenFiles": [
+    "_site/notes/bias-post.html",
+    "_site/notes/my-first-note2.html",
+    "_site/notes/my-first-note.html",
+    "_notes/bias_post.md",
     "_posts/bias_post.md",
     "_site/credits.html",
     "_site/post/how-to.html",
@@ -178,10 +182,8 @@
     "_site/notes/hidden-note.html",
     "_site/notes/welcome-to-the-garden.html",
     "_site/notes/markdown-rendered.html",
-    "_site/notes/bias-post.html",
     "_site/notes/:slug.md",
     "_site/notes",
-    "_site/utilities/Autocomplete.ts",
     "_site/assets/img/sun.svg",
     "_site/assets/img/moon.svg",
     "_site/assets/img/external-link.svg",
@@ -196,7 +198,6 @@
     "_site/Welcome.md",
     "_site/README.md",
     "_site/Home.md",
-    "_notes/bias_post.md",
     "_notes/Public/biaeses_post.md",
     "_notes/Public/bias_post.md",
     "_notes/Biases in Embedding Models 1.md",
@@ -214,7 +215,6 @@
     "_notes/Public/Welcome to the garden.md",
     "_notes/Public/Markdown Rendered.md",
     "_notes/Public/Hidden Note.md",
-    "_notes/Public/Credits.md",
-    "README.md"
+    "_notes/Public/Credits.md"
   ]
 }
