@@ -1,6 +1,6 @@
 ---
 layout: Post
-permalink: /notes
+permalink: /notes/index.html
 feedformat: card
 title: Digital Garden
 ---
