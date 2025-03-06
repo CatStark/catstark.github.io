@@ -36,10 +36,8 @@ In this analysis I found patterns of gender bias across multiple domains, with p
 
 ### Leadership Recognition (d=0.42-0.61)
 
-- Shows the strongest bias levels, reaching "medium to large" effect sizes
-    
+- Shows the strongest bias levels, reaching "medium to large" effect sizes 
 - Systematically associates leadership qualities with male terms
-    
 - Critical impact on promotion decisions and leadership potential assessment
 
 !!! ADD JS ANIMATIONS (# AI Model Bias Analysis)

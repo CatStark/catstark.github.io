@@ -170,6 +170,12 @@
   },
   "active": "8d0daa1eae08ac44",
   "lastOpenFiles": [
+    "_notes/Research/bias_post.md",
+    "_notes/Research",
+    "_site/notes/test-note.html",
+    "_site/notes/:slug.md",
+    "_notes/DG/test_note.md",
+    "_notes/DG",
     "_site/notes/index.html",
     "_site/ notes.md",
     " notes.md",
@@ -182,16 +188,11 @@
     "_notes/Credits.md",
     "_notes/bias_post.md",
     "_notes/Public/test-note.md",
-    "_site/notes/test-note.html",
-    "_site/notes/:slug.md",
     "_site/notes/bias-post.html",
     "_site/notes/my-first-note2.html",
     "_site/notes/my-first-note.html",
     "_posts/bias_post.md",
     "_site/credits.html",
-    "_site/post/how-to.html",
-    "_site/post/features.html",
-    "_site/post",
     "_site/assets/img/sun.svg",
     "_site/assets/img/moon.svg",
     "_site/assets/img/external-link.svg",
@@ -214,7 +215,6 @@
     "_notes/Public/Biases in Embedding Models 1.md",
     "Research/Biases in Embedding Models.md",
     "pages/posts.md",
-    "pages/notes.md",
-    "pages/lists.md"
+    "pages/notes.md"
   ]
 }
