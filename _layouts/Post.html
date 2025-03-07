@@ -195,18 +195,23 @@
 <script src="{{ site.baseurl }}/assets/js/dist/react-bundle.js"></script>
 {% endif %}
 
+<!-- Vercel Analytics -->
+<script>
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+
 <!-- Vercel Speed Insights -->
 <script>
 window.addEventListener('load', function() {
   if (typeof window.va === 'undefined') {
     window.va = function() { (window.vaq = window.vaq || []).push(arguments); };
   }
-  window.va('init', {
-
-  });
+  window.va('init', {});
 });
 </script>
 <script defer src="/_vercel/speed-insights/script.js"></script>
+
 
 </body>
 </html>

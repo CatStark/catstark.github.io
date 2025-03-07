@@ -163,20 +163,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8d0daa1eae08ac44",
+  "active": "d017e3599b858f81",
   "lastOpenFiles": [
+    "node_modules/@vercel/analytics/package.json",
+    "node_modules/@vercel/analytics/test.setup.ts",
+    "node_modules/@vercel/analytics/dist/index.d.ts",
+    "node_modules/@vercel/analytics/dist/astro/component.ts",
+    "node_modules/@vercel/analytics/vitest.config.mts",
+    "node_modules/@vercel/analytics/dist/index.d.mts",
+    "node_modules/@vercel/analytics/dist/index.mjs",
+    "node_modules/@vercel/analytics/README.md",
+    "node_modules/@vercel/analytics/dist/index.mjs.map",
+    "node_modules/@vercel/analytics/dist/index.js.map",
+    "node_modules/@vercel/analytics/tsconfig.json",
+    "node_modules/@vercel/analytics/tsup.config.js",
     "node_modules/@babel/preset-typescript/README.md",
     "_notes/CoT.md",
-    "node_modules/@vercel/speed-insights/package.json",
-    "node_modules/@vercel/speed-insights/test.setup.ts",
-    "node_modules/@vercel/speed-insights/dist/next/index.d.ts",
-    "node_modules/@vercel/speed-insights/dist/index.d.ts",
-    "node_modules/@vercel/speed-insights/dist/astro/component.ts",
-    "node_modules/@vercel/speed-insights/vitest.config.mts",
-    "node_modules/@vercel/speed-insights/dist/next/index.d.mts",
-    "node_modules/@vercel/speed-insights/dist/index.d.mts",
-    "node_modules/@vercel/speed-insights/scripts/postinstall.mjs",
-    "node_modules/@vercel/speed-insights/scripts",
     "node_modules/@vercel/speed-insights/README.md",
     "node_modules/fsevents/README.md",
     "_site/assets/images/regression.png",
@@ -208,8 +210,6 @@
     "node_modules/webpack-cli/README.md",
     "node_modules/babel-loader/README.md",
     "node_modules/babel-loader/CHANGELOG.md",
-    "node_modules/pkg-dir/node_modules/p-locate/readme.md",
-    "node_modules/@babel/template/README.md",
-    "node_modules/@babel/generator/README.md"
+    "node_modules/pkg-dir/node_modules/p-locate/readme.md"
   ]
 }
