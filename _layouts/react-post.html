@@ -1,0 +1,22 @@
+---
+layout: note
+---
+
+{{ content }}
+
+<!-- React component containers -->
+{% if page.include_bias_visualization %}
+<div class="bias-visualization-container"></div>
+{% endif %}
+
+{% if page.include_action_guide %}
+<div class="action-guide-container"></div>
+{% endif %}
+
+<!-- Include React and your bundled JS -->
+{% if page.include_react %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.1.9/Recharts.min.js"></script>
+<script src="{{ '/assets/js/react-bundle.js' | relative_url }}"></script>
+{% endif %}

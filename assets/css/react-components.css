@@ -1,0 +1,38 @@
+/* assets/css/react-components.css */
+.react-component {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: var(--color-bg-sub);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Make React components responsive */
+.react-component svg,
+.react-component canvas,
+.react-component img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for charts */
+.chart-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+/* Loading state */
+.react-component:empty::before {
+  content: "Loading interactive component...";
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color: var(--color-text-sub);
+}
+
+/* Support dark mode */
+@media (prefers-color-scheme: dark) {
+  .react-component {
+    background-color: var(--color-bg-main);
+  }
+}

@@ -1,7 +1,9 @@
 ---
-title : Biases in embedding models
+title: Biases in embedding models
 feed: show
-date : 6-03-2025
+date: 6-03-2025
+include_react: true
+content-type: notes
 ---
 
 # Executive Summary
@@ -39,8 +41,8 @@ In this analysis I found patterns of gender bias across multiple domains, with p
 - Shows the strongest bias levels, reaching "medium to large" effect sizes 
 - Systematically associates leadership qualities with male terms
 - Critical impact on promotion decisions and leadership potential assessment
-
-!!! ADD JS ANIMATIONS (# AI Model Bias Analysis)
+- 
+{% include bias-visualization.html %}
 
 # Understanding embedding models
 
@@ -53,6 +55,7 @@ Embedding models try to “teach” a computer to understand human language (or 
 To illustrate how they work, let's examine a simplified two-dimensional example. In this space, we represent animals using just two meaningful dimensions: their degree of domestication and their position on the cat/dog spectrum. Each animal is encoded as a pair of numbers, for example, "Pet Cat" becomes [0.90, 0.90], indicating both high domestication and strong feline characteristics, while "Wolf" is represented as [0.15, 0.10],indicating dog characteristics and wild nature. Embedding models are the translators that make sure similar concepts are positioned close to each other in the vector space.
 
 !!! ADD JS ANIMATIONS (## Understanding Word Embeddings: Animal Classification)
+{% include embedding-explainer.html %}
 
 When these models encode terms related to professional domains, such biases become evident in the geometric relationships between vectors. For example, the patterns found in this analysis of gender bias emerge from similar vector relationships, where terms associated with leadership or technical competence consistently show stronger geometric proximity to male-associated terms.
 
@@ -93,7 +96,8 @@ On top of this, current regulatory frameworks like the EU AI Act focus on comput
 
 To address these challenges, I propose a policy framework, of tiered mandatory audits and a certification system. First, let's examine how existing regulatory frameworks approach AI governance:
 
-!!! ADD JS ANIMATIONS (## Comparative Analysis of AI Regulatory Frameworks)
+{% include regulatory-comparison.html %}
+
 # Tiered mandatory audits
 
 ### Tier 1 - Critical Applications (Quarterly Audits)
@@ -125,7 +129,7 @@ For these lower-risk applications, where I observed smaller but persistent caree
 
 The proposed certification framework aims to close the gap between mandatory requirements and market incentives. While mandatory audits establish minimum safety standards, a voluntary certification program can drive continuous improvement through market mechanisms and competitive advantage.
 
-!!! ADD JS ANIMATIONS (## Certification System: Promoting Excellence in Embedding Model Fairness)
+{% include certification-system.html %}
 
 The certification system aims to create market incentives for reducing gender bias in embedding models, which is particularly valuable given that, as discussed by [McKinsey](https://www.mckinsey.com/~/media/mckinsey/featured%20insights/diversity%20and%20inclusion/diversity%20wins%20how%20inclusion%20matters/diversity-wins-how-inclusion-matters-vf.pdf), companies with strong gender diversity show 25% higher profitability while workplace discrimination continues to carry significant costs, with the EEOC [securing $439.2 million](https://www.eeoc.gov/newsroom/eeoc-releases-fiscal-year-2020-enforcement-and-litigation-data) in discrimination settlements in 2020 alone.
 
@@ -133,7 +137,7 @@ The certification system aims to create market incentives for reducing gender bi
 
 While this research demonstrates gender bias in embedding models, identifying the problem is only the first step. Stakeholders have different roles to play in addressing these challenges. Below is a practical guide for various groups to begin taking concrete action, based on the findings.
 
-!!! ADD JS ANIMATIONS (## Taking Action on Embedding Model Bias)
+{% include action-guide.html %}
 
 # Technical Analysis
 
@@ -181,3 +185,4 @@ The proposed regulatory framework, combining mandatory audits with a certificati
 Looking ahead, I believe this problem may become even more complex with multimodal models that combine text, images, and other data types. These models risk amplifying biases through cross-modal contamination, where gender stereotypes from one modality (for example, biased image representations) could reinforce biases in others (like text associations).
 
 We are still on time to fix these biases before they become too deeply baked into AI systems, but we need to act quickly. Companies have been building AI tools on top of biased embedding models for years, making the problem harder to fix. We need clear regulations that motivates companies to be more open about their embedding models, how they're built, tested, and used. Without this transparency and accountability, these biases risk becoming permanent features of our AI-powered future.
+
