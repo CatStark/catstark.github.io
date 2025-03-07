@@ -72,7 +72,7 @@ export default function BiasVisualization() {
 
   // Custom tooltip component
   const CustomTooltip = ({ active, payload }) => {
-    if (!active || !payload e|| payload.length === 0) return null;
+    if (!active || !payload|| payload.length === 0) return null;
     const data = payload[0];
     return (
       <div className="bias-viz-tooltip">

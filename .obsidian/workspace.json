@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/bias_post.md",
+                "file": "_notes/CoT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "bias_post"
+              "title": "CoT"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/bias_post.md",
+                "file": "_notes/CoT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for bias_post"
+              "title": "Backlinks for CoT"
             }
           },
           {
@@ -170,6 +170,16 @@
   },
   "active": "8d0daa1eae08ac44",
   "lastOpenFiles": [
+    "_site/notes/CoT.html.md",
+    "_site/length_vs_backtracks.png",
+    "_site/difficulty_comparison.png",
+    "_site/difficulty_comparison 1.png",
+    "_site/Screenshot 2025-03-07 at 15.52.45.png",
+    "Screenshot 2025-03-07 at 15.52.45.png",
+    "length_vs_backtracks.png",
+    "difficulty_comparison 1.png",
+    "difficulty_comparison.png",
+    "_notes/bias_post.md",
     "webpack.config.js ",
     "node_modules/webpack/types.d.ts",
     "node_modules/webpack/module.d.ts",
@@ -183,7 +193,6 @@
     "node_modules/@babel/types/package.json",
     "node_modules/webpack/hot/signal.js",
     "node_modules/webpack/hot/poll.js",
-    "node_modules/webpack/hot/only-dev-server.js",
     "node_modules/webpack-cli/node_modules/commander/Readme.md",
     "node_modules/@babel/preset-env/CONTRIBUTING.md",
     "node_modules/@babel/preset-env/README.md",
@@ -205,16 +214,7 @@
     "node_modules/@babel/types/README.md",
     "node_modules/@babel/helper-compilation-targets/README.md",
     "node_modules/@babel/helper-module-transforms/README.md",
-    "node_modules/convert-source-map/README.md",
     "_site/assets/img/sun.svg",
-    "_site/assets/img/moon.svg",
-    "_site/assets/img/external-link.svg",
-    "_site/assets/img/OGImg.png",
-    "_site/assets/img/7-how-to.png",
-    "_site/assets/img/6-how-to.png",
-    "_site/assets/img/5-how-to.png",
-    "_site/assets/img/3-how-to.png",
-    "_site/assets/img/4-how-to.png",
-    "_site/assets/img/2-how-to.png"
+    "_site/assets/img/moon.svg"
   ]
 }
