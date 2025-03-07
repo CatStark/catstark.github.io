@@ -1,4 +1,3 @@
-// assets/js/react-components/index.jsx
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import BiasVisualization from './BiasVisualization';
@@ -6,6 +5,7 @@ import ActionGuide from './ActionGuide';
 import RegulatoryComparison from './RegulatoryComparison';
 import EmbeddingExplainer from './EmbeddingExplainer';
 import CertificationSystem from './CertificationSystem';
+
 
 console.log("React bundle initialization");
 

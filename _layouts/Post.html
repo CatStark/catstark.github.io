@@ -185,11 +185,14 @@
     {%- include Footer.html -%}
 </main>
 
-<!-- React scripts if needed - placed at the end of the document for better performance -->
 {% if page.include_react %}
+<!-- React CSS -->
+<link href="{{ site.baseurl }}/assets/css/react-components.css" rel="stylesheet" media="all" />
+
+<!-- React Scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
-<script src="{{ site.baseurl }}/assets/js/react-bundle.js"></script>
+<script src="{{ site.baseurl }}/assets/js/dist/react-bundle.js"></script>
 {% endif %}
 
 </body>

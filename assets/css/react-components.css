@@ -1,38 +1,149 @@
-/* assets/css/react-components.css */
+/* Base styling for all React components */
 .react-component {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
   margin: 2rem 0;
   padding: 1.5rem;
-  border-radius: 8px;
-  background-color: var(--color-bg-sub);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333;
 }
 
-/* Make React components responsive */
-.react-component svg,
-.react-component canvas,
-.react-component img {
+/* Bias Visualization Component */
+.bias-viz-container {
   max-width: 100%;
-  height: auto;
 }
 
-/* Style for charts */
-.chart-wrapper {
-  overflow-x: auto;
+.bias-viz-title {
+  font-size: 2rem;
+  font-weight: bold;
   margin-bottom: 1rem;
 }
 
-/* Loading state */
-.react-component:empty::before {
-  content: "Loading interactive component...";
-  display: block;
-  text-align: center;
-  font-style: italic;
-  color: var(--color-text-sub);
+.bias-viz-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-/* Support dark mode */
-@media (prefers-color-scheme: dark) {
-  .react-component {
-    background-color: var(--color-bg-main);
-  }
+.bias-viz-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.bias-viz-info-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background-color: #3b82f6;
+  color: white;
+  font-style: italic;
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  cursor: help;
+}
+
+.bias-viz-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.bias-viz-button, .bias-viz-button-active {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+}
+
+.bias-viz-button {
+  background-color: #f3f4f6;
+  color: #4b5563;
+}
+
+.bias-viz-button-active {
+  background-color: #3b82f6;
+  color: white;
+  box-shadow: 0 2px 5px rgba(59, 130, 246, 0.3);
+}
+
+.bias-viz-info-box {
+  background-color: #eef6fc;
+  border: 1px solid #dceefb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.bias-viz-info-title {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.bias-viz-info-text {
+  margin: 0;
+}
+
+.bias-viz-chart {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  border: 1px solid #e5e7eb;
+}
+
+.bias-viz-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.bias-viz-legend-item {
+  display: flex;
+  align-items: center;
+}
+
+.bias-viz-legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.bias-viz-legend-color-green {
+  background-color: #22c55e;
+}
+
+.bias-viz-legend-color-blue {
+  background-color: #3b82f6;
+}
+
+.bias-viz-legend-color-yellow {
+  background-color: #fcd34d;
+}
+
+.bias-viz-legend-color-red {
+  background-color: #dc2626;
+}
+
+.bias-viz-legend-text {
+  font-size: 0.875rem;
+}
+
+/* Tooltip styling */
+.custom-tooltip {
+  background-color: white;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
