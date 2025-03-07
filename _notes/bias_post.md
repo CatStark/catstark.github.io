@@ -41,7 +41,7 @@ In this analysis I found patterns of gender bias across multiple domains, with p
 - Shows the strongest bias levels, reaching "medium to large" effect sizes 
 - Systematically associates leadership qualities with male terms
 - Critical impact on promotion decisions and leadership potential assessment
-- 
+
 {% include bias-visualization.html %}
 
 # Understanding embedding models
@@ -54,14 +54,13 @@ Embedding models try to “teach” a computer to understand human language (or 
 
 To illustrate how they work, let's examine a simplified two-dimensional example. In this space, we represent animals using just two meaningful dimensions: their degree of domestication and their position on the cat/dog spectrum. Each animal is encoded as a pair of numbers, for example, "Pet Cat" becomes [0.90, 0.90], indicating both high domestication and strong feline characteristics, while "Wolf" is represented as [0.15, 0.10],indicating dog characteristics and wild nature. Embedding models are the translators that make sure similar concepts are positioned close to each other in the vector space.
 
-!!! ADD JS ANIMATIONS (## Understanding Word Embeddings: Animal Classification)
 {% include embedding-explainer.html %}
 
 When these models encode terms related to professional domains, such biases become evident in the geometric relationships between vectors. For example, the patterns found in this analysis of gender bias emerge from similar vector relationships, where terms associated with leadership or technical competence consistently show stronger geometric proximity to male-associated terms.
 
 These examples uses just two dimensions for clarity, but production embedding models employ hundreds of dimensions to capture these complex semantic relationships, making their biases more subtle.
 
-!!! ADD JS ANIMATIONS (## Understanding Word Embeddings: Professional roles)
+{% include embedding-explainer-work.html %}
 
 ## Why this matters?
 

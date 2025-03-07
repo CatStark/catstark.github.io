@@ -4,6 +4,7 @@ import BiasVisualization from './BiasVisualization';
 import ActionGuide from './ActionGuide';
 import RegulatoryComparison from './RegulatoryComparison';
 import EmbeddingExplainer from './EmbeddingExplainer';
+import EmbeddingExplainerWork from './EmbeddingExplainerWork';
 import CertificationSystem from './CertificationSystem';
 
 
@@ -31,5 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderComponent(ActionGuide, 'action-guide-container');
   renderComponent(RegulatoryComparison, 'regulatory-comparison-container');
   renderComponent(EmbeddingExplainer, 'embedding-explainer-container');
+  renderComponent(EmbeddingExplainerWork, 'embedding-explainer-work-container');
   renderComponent(CertificationSystem, 'certification-system-container');
+
 });

@@ -1,49 +1,37 @@
-/* Base styling for all React components */
+/* assets/css/react-components.css */
+
+/* BASE STYLES FOR ALL COMPONENTS */
 .react-component {
   background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   margin: 2rem 0;
-  padding: 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
-/* Bias Visualization Component */
+/* BIAS VISUALIZATION STYLES */
 .bias-viz-container {
-  max-width: 100%;
+  padding: 1.5rem;
 }
 
 .bias-viz-title {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color: #333;
 }
 
 .bias-viz-subtitle {
   font-size: 1.5rem;
+  align-items: center;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .bias-viz-header {
   display: flex;
-  align-items: center;
+  gap: 0.5rem;
   margin-bottom: 1rem;
-}
-
-.bias-viz-info-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 50%;
-  background-color: #3b82f6;
-  color: white;
-  font-style: italic;
-  margin-left: 0.5rem;
-  font-size: 0.75rem;
-  cursor: help;
 }
 
 .bias-viz-buttons {
@@ -52,98 +40,199 @@
   margin-bottom: 1rem;
 }
 
-.bias-viz-button, .bias-viz-button-active {
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.2s;
-  border: none;
-}
-
 .bias-viz-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
   background-color: #f3f4f6;
   color: #4b5563;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
 }
 
 .bias-viz-button-active {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
   background-color: #3b82f6;
   color: white;
-  box-shadow: 0 2px 5px rgba(59, 130, 246, 0.3);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .bias-viz-info-box {
   background-color: #eef6fc;
-  border: 1px solid #dceefb;
-  border-radius: 8px;
+  border-radius: 0.25rem;
   padding: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .bias-viz-info-title {
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 0.5rem;
-}
+  font-size: 1rem;
 
-.bias-viz-info-text {
-  margin: 0;
-}
-
-.bias-viz-chart {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 1rem 0;
-  border: 1px solid #e5e7eb;
 }
 
 .bias-viz-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
   margin-top: 1rem;
+  padding: 0.75rem;
   background-color: #f9fafb;
-  padding: 1rem;
-  border-radius: 8px;
+  border-radius: 0.25rem;
+  font-size: 1rem;
 }
 
 .bias-viz-legend-item {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .bias-viz-legend-color {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 9999px;
+}
+
+.negligible { background-color: #22c55e; }
+.small { background-color: #3b82f6; }
+.medium { background-color: #fcd34d; }
+.large { background-color: #dc2626; }
+
+/* EMBEDDING EXPLAINER STYLES */
+.embedding-container {
+  padding: 1.5rem;
+}
+
+.embedding-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.embedding-chart {
+  position: relative;
+  height: 400px;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.embedding-axis-label {
+  position: absolute;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.embedding-axis-title {
+  position: absolute;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+/* X-axis */
+.x-label-0 {
+  bottom: 0.5rem;
+  left: 0.5rem;
+}
+
+.x-label-05 {
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.x-label-1 {
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+.x-axis-title {
+  bottom: 2rem;
+  right: 0.5rem;
+}
+
+/* Y-axis */
+.y-label-0 {
+  left: 0.5rem;
+  bottom: 0.5rem;
+}
+
+.y-label-05 {
+  left: 0.5rem;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.y-label-1 {
+  left: 0.5rem;
+  top: 0.5rem;
+}
+
+.y-axis-title {
+  top: 0.5rem;
+  left: 2rem;
+}
+
+/* Grid */
+.embedding-grid-line {
+  position: absolute;
+  background-color: rgba(229, 231, 235, 0.5);
+}
+
+.h-grid-line {
+  left: 0;
+  right: 0;
+  height: 1px;
+}
+
+.v-grid-line {
+  top: 0;
+  bottom: 0;
+  width: 1px;
+}
+
+.h-grid-middle {
+  top: 50%;
+}
+
+.v-grid-middle {
+  left: 50%;
+}
+
+/* Points */
+.animal-point {
+  position: absolute;
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  margin-right: 0.5rem;
+  background-color: #8b5cf6;
+  transform: translate(-50%, 50%);
+  cursor: pointer;
 }
 
-.bias-viz-legend-color-green {
-  background-color: #22c55e;
-}
-
-.bias-viz-legend-color-blue {
-  background-color: #3b82f6;
-}
-
-.bias-viz-legend-color-yellow {
-  background-color: #fcd34d;
-}
-
-.bias-viz-legend-color-red {
-  background-color: #dc2626;
-}
-
-.bias-viz-legend-text {
+.animal-label {
+  position: absolute;
+  white-space: nowrap;
   font-size: 0.875rem;
+  color: #333;
+  transform: translate(-50%, -100%);
+  margin-top: -5px;
 }
 
-/* Tooltip styling */
-.custom-tooltip {
-  background-color: white;
-  padding: 0.75rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 6px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+.embedding-description {
+  padding: 1rem;
+  background-color: #f0f9ff;
+  border: 1px solid #e0f2fe;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  color: #1e40af;
+  line-height: 1.5;
 }
