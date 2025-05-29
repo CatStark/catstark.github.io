@@ -11,6 +11,11 @@ content-type: notes
 ##  Alexey Titarenko 
 ![[020_73+alexey.jpg]]
 
+> There is no life without mistery. Otherwise life is boring
 
-> Very early in my life I learned that the most important it's not what is happening, but how we perceive it
 ### The basics
+
+* Hasselblad 500
+* Loooong exposure
+	* So definitely a tripod
+
