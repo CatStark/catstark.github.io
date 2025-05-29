@@ -1,14 +1,14 @@
 ---
 title: Research
+description: Notes and ideas related to AI safety, reasoning models, and more
 permalink: /notes/Research/
-layout: Post
-feedformat: card
+layout: default
 ---
 
 {% assign research_notes = site.notes | where_exp:"note", "note.path contains 'Research/'" %}
 
-<div class="notes-grid">
+<ul>
   {% for note in research_notes %}
-    {% include note-card.html note=note %}
+    <li><a href="{{ note.url }}">{{ note.title }}</a></li>
   {% endfor %}
-</div>
+</ul>
