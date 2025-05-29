@@ -1,0 +1,10 @@
+<div class="card" style="margin-bottom: 2rem;">
+  <div class="card-content">
+    <p class="title is-5">
+      <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+    </p>
+    {% if note.description %}
+    <p class="subtitle is-6">{{ note.description }}</p>
+    {% endif %}
+  </div>
+</div>
