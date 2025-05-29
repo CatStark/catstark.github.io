@@ -2,6 +2,6 @@
 layout: Post
 permalink: /notes/index.html
 feedformat: card
-title: Digital Garden for research ideas 
+title: Everything of everything. All at once.
 ---
-Sor
+

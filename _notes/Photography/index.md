@@ -1,7 +1,7 @@
 ---
 title: Photography
 permalink: /notes/Photography/
-layout: page
+layout: default
 ---
 
 Here are my current notes, thougths and all in betwen about photography:
