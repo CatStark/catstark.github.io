@@ -53,11 +53,14 @@
     
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a href="{{'/notes' | relative_url}}" class="navbar-item">
-          Research Ideas
+        <a href="{{ '/notes' | relative_url }}" class="navbar-item">
+          All Notes
         </a>
-        <a href="{{'/notes/DG' | relative_url}}" class="navbar-item">
-          Digital Garden
+        <a href="{{ '/notes/Research' | relative_url }}" class="navbar-item">
+          Research
+        </a>
+        <a href="{{ '/notes/Photography' | relative_url }}" class="navbar-item">
+          Photography
         </a>
       </div>
       <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
