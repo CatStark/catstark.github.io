@@ -9,8 +9,6 @@ include_react: true
 content-type: notes
 ---
 
-
-
 ## Abstract
 This study investigates whether backtracking, when a model corrects its reasoning path mid-solution, improves performance on mathematical reasoning tasks. Using a subset of 296 problems from GSM8K with the DeepSeek-R1 model, I found backtracking improves success rates by 8.19% overall. This improvement scales with problem difficulty, with the largest gains (+20%) on the hardest problems. Backtracking occurred most frequently in early and middle stages, and the number of backtracks positively correlates with solution length. 
 
