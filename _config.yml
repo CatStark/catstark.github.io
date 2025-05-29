@@ -69,6 +69,7 @@ collections:
   notes:
     output: true
     permalink: /notes/:path.html
+    source: _notes
 
 markdown: kramdown
 
