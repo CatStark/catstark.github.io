@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/notes.md",
+                "file": "_notes/Photography/Henri Cartier-Bresson.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "Henri Cartier-Bresson"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_notes/Photography/Henri Cartier-Bresson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Henri Cartier-Bresson"
             }
           },
           {
@@ -178,13 +179,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d017e3599b858f81",
+  "active": "8d0daa1eae08ac44",
   "lastOpenFiles": [
-    "_notes/Research/bias_post.md",
     "_notes/Research/CoT.md",
+    "_notes/Research/bias_post.md",
+    "_notes/Photography/Henri Cartier-Bresson.md",
+    "_notes/Photography/index.md",
+    "_notes/TEST.md",
+    "_notes/Research/index.md",
+    "_notes/Research/index.mc",
     "_notes/Photography",
     "pages/notes.md",
-    "_notes/TEST.md",
     "pages/lists.md",
     "pages/index.md",
     "_notes/CoT.md",
@@ -204,7 +209,6 @@
     "node_modules/@vercel/analytics/dist/index.mjs",
     "node_modules/@vercel/analytics/README.md",
     "node_modules/@vercel/analytics/dist/index.mjs.map",
-    "node_modules/@vercel/analytics/dist/index.js.map",
     "node_modules/@babel/preset-typescript/README.md",
     "node_modules/@vercel/speed-insights/README.md",
     "node_modules/fsevents/README.md",
@@ -223,9 +227,6 @@
     "node_modules/caniuse-lite/README.md",
     "node_modules/webpack-cli/node_modules/commander/Readme.md",
     "node_modules/@babel/preset-env/CONTRIBUTING.md",
-    "node_modules/@babel/preset-env/README.md",
-    "node_modules/pkg-dir/node_modules/find-up/readme.md",
-    "node_modules/@babel/preset-react/README.md",
-    "node_modules/regjsparser/node_modules/jsesc/README.md"
+    "node_modules/@babel/preset-env/README.md"
   ]
 }
