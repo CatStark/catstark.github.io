@@ -8,3 +8,4 @@ include_react: true
 content-type: notes
 ---
 
+## Henri Cartier-Bresson
