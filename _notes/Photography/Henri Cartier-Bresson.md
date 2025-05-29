@@ -9,8 +9,10 @@ content-type: notes
 ---
 
 ## Henri Cartier-Bresson
+![[713d0a5b1f82c3cb6442e95d7a6dfa34.jpg]]
 
-" To take a photograph is to align the head, the eye and the heart. It's a way of life"
+
+> To take a photograph is to align the head, the eye and the heart. It's a way of life
 
 ### The basics
 * Black and White only 
